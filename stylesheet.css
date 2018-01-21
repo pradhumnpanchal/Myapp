@@ -3,6 +3,7 @@
 	text-align: center;
 	background-color: rgba(106, 90, 205,0.8);
 	margin: 0px;
+	padding: 1em;
 }
 
 #id1 {
@@ -19,11 +20,11 @@
 	font-size: 130%;
 	background-color: rgba(60, 179, 113,0.8);
 	margin-right: 35%;
-	padding: 1em;
+	border: 15px double tomato;
+	border-radius: 100px;
 }
 
 h1.center {
-	border-bottom: 20px double tomato;
-	border-top: 20px double tomato;
-	padding: 0.5em;
+	border: 20px double tomato;
+	border-radius: 1000px;
 }
