@@ -2,18 +2,23 @@
 	color: white;
 	text-align: center;
 	background-color: rgba(106, 90, 205,0.8);
-	margin: 0px;
+	margin-bottom: -40px;
 	padding: 1em;
 }
 
-#id1 {
+body {
 	background-color: tomato;
+	margin: 0px;
+}
+
+#id1 {
 	background-image: url("Images/Tree Image.gif");
 	background-repeat: no-repeat;
-	background-position: right bottom;
+	background-position: calc(100% - 18%) calc(100% - 0px); 
 	background-attachment: fixed;
-	background-size: 35% 60%;
-    margin: 0px;
+	background-size: 32% 55%;
+    margin: auto;
+    width: 75%;
 }
 
 .large {
@@ -21,7 +26,8 @@
 	background-color: rgba(60, 179, 113,0.8);
 	margin-right: 35%;
 	border: 15px double tomato;
-	border-radius: 100px;
+	border-radius: 1000px;
+	margin-bottom: -55px;
 }
 
 h1.center {

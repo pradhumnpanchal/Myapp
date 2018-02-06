@@ -1,0 +1,140 @@
+body {
+    background-attachment: fixed;
+    background-image: url("Images/Background-Texture2.JPG");
+    background-size: cover;
+    font-size: 100%;
+    margin: 0;
+}
+
+nav {
+    background-color: rgba(95, 95, 95, 0.8);
+    float: left;
+    margin-right: 1em;
+    padding-left: 0px;
+    padding-right: 0.5em;
+    overflow: auto;
+}
+
+.nav-items {
+
+    line-height: 2.5;
+    list-style-type: none;
+    font-family: "Comic Sans MS", Sans-serif;
+    font-weight: bolder;
+    padding: 0px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 1.3em;
+    padding-left: 1em;
+    padding-right: 0.25em;
+}
+
+.nav-items a:hover {
+    background-color: rgb(90, 90, 90);
+    border-left: 0.4em solid white;
+    color: white;
+    display: block;
+    padding-left: 0.6em;
+    font-size: 1.3em;
+}
+
+section {
+    margin-top: 2%;
+    font-size: 1.2em;
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(95, 95, 95, 0.8);
+    margin: 0px;
+    padding: 2em;
+    color: white;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 3.8em;
+    border-bottom: 0.2em double white;
+    border-top: 0.2em double white;
+}
+
+section ul {
+    display: inline-block;
+    background-color: rgb(76, 175, 80);
+    padding: 0.4em;
+    padding-left: 0em;
+    margin-top: 0;
+    margin-left: 0.5em;
+    color: black;
+}
+
+section ul li {
+    list-style: none;
+    background-repeat: no-repeat;
+    background-size: 1em;
+    padding-left: 1.5em;
+}
+
+#ul-star {
+    background-image: url("Images/Star marker.png");
+    background-color: rgb(255, 254, 223);
+    padding-right: 8em;
+    margin: 0.25em;
+    margin-left: 0em;
+
+}
+
+#ul-implies {
+    background-color: rgb(220, 112, 112);
+    padding-right: 8em;
+}
+
+#ul-arrow {
+    background-color: rgb(255, 207, 64);
+    padding: 0.25em;
+    padding-right: 3.7em;
+    padding-left: 3.7em;
+    margin: 0.5em;
+    margin-left: 0em;
+    margin-right: 0em;
+    font-family: "Comic Sans MS", Sans-serif;
+    font-weight: bolder;
+}
+
+#ul-arrow:nth-child(even) {
+    background-color: rgb(103, 62, 15);
+    color: white;
+}
+
+#ul-implies:hover {
+    background-color: rgb(76, 175, 80);
+    text-shadow: 0.06em 0.04em rgb(50, 50, 50);
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0em auto;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+section .bord {
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+}
+
+tr:hover {
+    background-color: #ddd;
+    color: black;
+}
