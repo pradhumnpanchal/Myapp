@@ -14,11 +14,12 @@ body {
 #id1 {
 	background-image: url("Images/Tree Image.gif");
 	background-repeat: no-repeat;
-	background-position: calc(100% - 18%) calc(100% - 0px); 
+	background-position: calc(100% - 18%) calc(100% - 0px);
 	background-attachment: fixed;
 	background-size: 32% 55%;
     margin: auto;
     width: 75%;
+		font-weight: 300;
 }
 
 .large {
@@ -28,6 +29,7 @@ body {
 	border: 15px double tomato;
 	border-radius: 1000px;
 	margin-bottom: -55px;
+	font-weight: 300;
 }
 
 h1.center {
